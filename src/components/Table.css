@@ -1,0 +1,89 @@
+/* .productListEdit {
+  display: flex;
+  align-items: center; */
+  /* justify-content: center;
+  padding: 5px;
+} */
+
+.productListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.productListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 3px 5px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+  max-height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.productListDelete {
+  color: red;
+  cursor: pointer;
+}
+.size {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+}
+
+.inputBtnContainer {
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.inputBtnContainer input {
+  flex: 1;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.searchBtn {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor:pointer;
+}
+.searchBtn:hover{
+  background-color: rgb(79, 79, 221);
+}
+
+.loanStatus {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  flex-direction: column;
+  margin: 0;
+}
+
+#progress {
+  margin-top: -20px;
+}
+
+.loanStatus span {
+  margin-left: -90px;
+  margin-top: 0;
+}
+
+.MuiDataGrid-row.Mui-odd{
+  background-color: #faecfa;
+}

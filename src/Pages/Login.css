@@ -1,0 +1,156 @@
+.wrappers {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.imgContainer {
+  flex: 1;
+  background-color: #42618c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contentContainer {
+  flex: 1;
+  background-color: #f7f3f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.textContainer {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.logoContainer {
+  width: 100px;
+  padding: 20px;
+  margin: 5px 0;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.imgRound {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 7px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 3px grey;
+}
+
+.signin {
+  color: #c9ced9;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 0 5px 0;
+}
+
+/* form */
+.formContainer {
+  width: 70%;
+  background-color: white;
+  height: auto;
+}
+
+.form {
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: grey;
+  font-size: 15px;
+  font-weight: 200;
+}
+.input {
+  color: grey;
+  height: 2.5rem;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  background-color: #e7ebf7;
+  padding: 10px;
+  margin: 3px 0 0 0;
+}
+
+.inputWrap {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+#showPassword {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: grey !important;
+  cursor: pointer;
+}
+.button {
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: purple;
+  padding: 5px;
+  border: 0.3px solid #7369ef;
+}
+.info {
+  color: grey;
+}
+
+.forgotP {
+  margin: 14px 0;
+}
+
+a {
+  color: blue;
+  cursor: pointer;
+}
+
+#a {
+  color: blue;
+}
+
+.errorMessage{
+  color: rgb(240, 119, 119);
+  font-size: 12px;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 500px) {
+  .imgContainer {
+    display: none;
+  }
+  .contentContainer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .formContainer {
+    width: 95%;
+    background-color: white;
+    height: auto;
+  }
+}
